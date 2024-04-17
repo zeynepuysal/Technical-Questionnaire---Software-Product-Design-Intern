@@ -1,0 +1,48 @@
+# User Management Screen User Interface Specification
+
+## Requirements
+
+The user management screen allows administrators to view, create, update, and delete user accounts. The screen should provide functionalities for managing user information efficiently and securely.
+
+## UI Components
+
+### User List
+
+- Display a list of all users with their basic information such as username, email, role, and status.
+- Allow administrators to search, filter, and sort users based on different criteria.
+- Provide pagination for large user lists.
+
+### User Details Panel
+
+- Show detailed information about the selected user, including username, email, role, status, created date, and last login date.
+- Allow administrators to edit user details and update user information.
+- Provide options to activate, deactivate, or delete user accounts.
+
+### User Creation Form
+
+- Display a form for creating a new user account.
+- Require administrators to input username, email, password, role, and status for the new user.
+- Validate input fields to ensure data integrity and security.
+
+### Confirmation Modals
+
+- Display confirmation modals for critical actions such as deleting user accounts.
+- Require administrators to confirm their actions before proceeding to prevent accidental data loss.
+
+## Page Behavior
+
+- When the page loads, display the list of users with default sorting and filtering options applied.
+- Allow administrators to click on a user to view their detailed information in the user details panel.
+- Provide buttons or links to navigate to the user creation form and initiate user creation.
+- Show success or error messages after completing user management actions such as user creation, update, or deletion.
+
+## Initial Display
+
+- Display the user list with default sorting applied based on username or any other relevant criteria.
+- Show the user details panel on the right side of the screen with a placeholder message prompting administrators to select a user.
+
+## Notes
+
+- Ensure that the user interface is responsive and accessible across different devices and screen sizes.
+- Implement proper error handling and validation to provide a seamless user experience.
+- Follow design principles and guidelines to create a user-friendly and intuitive interface.
